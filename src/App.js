@@ -37,10 +37,6 @@ function App() {
             {data.main ? <h1>{((data.main.temp - 32) *5/9).toFixed()}°C</h1> : null}
           </div>
           <div className="description">
-          <img
-            src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
-            alt='/'
-          />
             {data.weather ? <p>{data.weather[0].main}</p> : null}
           </div>
         </div>
