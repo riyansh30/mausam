@@ -23,7 +23,7 @@ h1 {
 }
 
 .app {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: relative;
   background-color: rgba(0,0,0,0.4);
@@ -60,7 +60,7 @@ h1 {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 650px;
   height: 550px;
   margin: auto;
   padding: 0 1rem;
